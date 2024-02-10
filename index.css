@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(99, 171, 182);
+    color: #c0baba;;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+align-content: center;
+}
+
+
+.container{
+/* width: 550px; */
+height: 200px;
+margin: 50px;
+color: rgb(47, 46, 46);
+/* padding: 100px; */
+/* background-color: beige; */
+
+}
+
+.inp{
+    background-color: rgb(80, 77, 77);
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+
+}
+
+button{
+/* background-color: rgb(219, 60, 144); */
+
+background-color: rgb(99, 171, 182);
+border: none;
+font-size: 20px;
+font-size: 1.25rem;
+font-weight: 700;
+color: rgb(177, 72, 170);
+
+padding: 10px;
+margin: 10px;
+
+
+}
+
+button:hover{
+    color: rgb(144, 89, 140);
+    cursor: pointer;
+}
+
+.task-list{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid greenyellow; */
+
+    padding: 0px;
+    margin: 10px;
+}
+
+.title{
+    margin: 10px;
+}
+
+#dbt{
+    font-size: 15px;
+}
